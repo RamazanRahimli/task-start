@@ -45,7 +45,7 @@ main {
 main #sectionOneBox {
   min-height: 87vh;
   width: 100%;
-  background-image: url("../../../assets/IMAGE/header-bg (1).jpg");
+  background-image: url("../../../assets/IMAGE/header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -169,7 +169,81 @@ main #sectionTwoBox .bottomBox .iconWriteBox h4 {
 main #sectionTwoBox .bottomBox .iconWriteBox p {
   text-align: center;
   width: 87%;
-  color: #71777D;
+  color: #71777d;
+}
+main #sectionthreeBox {
+  min-height: 100vh;
+  width: 100%;
+  background-color: salmon;
+}
+main #sectionthreeBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main #sectionthreeBox .topBox {
+  min-height: 25vh;
+  width: 40%;
+  background-color: salmon;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main #sectionthreeBox .topBox h1 {
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  line-height: 1px;
+}
+main #sectionthreeBox .topBox p {
+  color: #6c757d;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+main #sectionthreeBox .bottomBox {
+  width: 85%;
+  min-height: 52vh;
+  background-color: sandybrown;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main #sectionthreeBox .bottomBox .logoWriteBox {
+  width: 33%;
+}
+main #sectionthreeBox .bottomBox .logoWriteBox .hoverBox {
+  height: 70%;
+  width: 100%;
+  background-color: saddlebrown;
+}
+main #sectionthreeBox .bottomBox .logoWriteBox .witeBox {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+main #sectionthreeBox .bottomBox .logoWriteBox .witeBox h4 {
+  font-size: 1.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  text-align: center;
+}
+main #sectionthreeBox .bottomBox .logoWriteBox .witeBox h5 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #909398;
 }
 
 * {
