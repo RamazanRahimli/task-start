@@ -1,0 +1,183 @@
+header {
+  width: 100%;
+  background-color: #212529;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  position: fixed;
+  top: 0;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+header .container img {
+  width: 15%;
+}
+header .container .menuBox {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+header .container .menuBox nav {
+  width: 100%;
+}
+header .container .menuBox nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+header .container .menuBox nav ul li {
+  list-style-type: none;
+}
+header .container .menuBox nav ul a {
+  text-decoration: none;
+  color: #E9ECEF;
+}
+header .container .menuBox nav ul a:hover {
+  color: #FFC800;
+}
+
+main {
+  width: 100%;
+}
+main #sectionOneBox {
+  min-height: 87vh;
+  width: 100%;
+  background-image: url("../../../assets/IMAGE/header-bg (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main #sectionOneBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #sectionOneBox .childBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 40vh;
+  width: 70%;
+}
+main #sectionOneBox .childBox h3 {
+  font-size: 2.25rem;
+  font-style: italic;
+  color: #E9ECEF;
+  cursor: pointer;
+}
+main #sectionOneBox .childBox h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #E9ECEF;
+  cursor: pointer;
+}
+main #sectionOneBox .childBox button {
+  cursor: pointer;
+  padding: 1.25rem 2.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 1px solid #FFC800;
+  color: #E9ECEF;
+  background-color: #FFC800;
+}
+main #sectionOneBox .childBox button:hover {
+  background-color: #be9a18;
+  cursor: pointer;
+  border: 1px solid #be9a18;
+}
+main #sectionTwoBox {
+  min-height: 87vh;
+  width: 100%;
+  background-color: saddlebrown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main #sectionTwoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #sectionTwoBox .topBox {
+  min-height: 25vh;
+  width: 40%;
+  background-color: salmon;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main #sectionTwoBox .topBox h1 {
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  line-height: 1px;
+}
+main #sectionTwoBox .topBox p {
+  color: #6c757d;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+main #sectionTwoBox .bottomBox {
+  width: 85%;
+  min-height: 52vh;
+  background-color: sandybrown;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main #sectionTwoBox .bottomBox .iconWriteBox {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+}
+main #sectionTwoBox .bottomBox .iconWriteBox .iconBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 128px;
+  width: 128px;
+  background-color: #FFC800;
+}
+main #sectionTwoBox .bottomBox .iconWriteBox .iconBox i {
+  font-size: 4em;
+  color: #E9ECEF;
+}
+main #sectionTwoBox .bottomBox .iconWriteBox h4 {
+  width: 60%;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1px;
+  font-style: normal;
+  text-align: center;
+}
+main #sectionTwoBox .bottomBox .iconWriteBox p {
+  text-align: center;
+  width: 87%;
+  color: #71777D;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 85%;
+}

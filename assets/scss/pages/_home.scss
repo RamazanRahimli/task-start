@@ -1,0 +1,198 @@
+header {
+    width: 100%;
+    background-color: $second-light-color;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    position: fixed;
+    top: 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            width: 15%;
+        }
+
+        .menuBox {
+            width: 50%;
+            display: flex;
+            align-items: center;
+
+            nav {
+                width: 100%;
+            }
+
+            nav ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            nav ul li {
+                list-style-type: none;
+            }
+
+            nav ul a {
+                text-decoration: none;
+                color: $main-color;
+
+                &:hover {
+                    color: $second-color;
+                }
+            }
+
+        }
+    }
+}
+
+main {
+    width: 100%;
+
+    // #sectionOneBox 
+    #sectionOneBox {
+        min-height: 87vh;
+        width: 100%;
+        background-image: url("../../../assets/IMAGE/header-bg\ \(1\).jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    // #sectionOneBox childBox 
+    #sectionOneBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .childBox {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            min-height: 40vh;
+            width: 70%;
+
+            h3 {
+                font-size: 2.25rem;
+                font-style: italic;
+                color: $main-color;
+                cursor: pointer;
+            }
+
+            h1 {
+                font-size: 4.5rem;
+                font-weight: 700;
+                color: $main-color;
+                cursor: pointer;
+            }
+
+            button {
+                cursor: pointer;
+                padding: 1.25rem 2.5rem;
+                font-size: 1.125rem;
+                font-weight: 700;
+                border-radius: 10px;
+                border: 1px solid $second-color;
+                color: $main-color;
+                background-color: $second-color;
+
+                &:hover {
+                    background-color: #be9a18;
+                    cursor: pointer;
+                    border: 1px solid #be9a18;
+                }
+            }
+        }
+    }
+
+    // #sectionTwoBox 
+    #sectionTwoBox {
+        min-height: 87vh;
+        width: 100%;
+        background-color: saddlebrown;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    // #sectionOneBox entry
+    #sectionTwoBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .topBox {
+            min-height: 25vh;
+            width: 40%;
+            background-color: salmon;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+            h1 {
+                font-size: 2.5rem;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+                color: black;
+                line-height: 1px;
+            }
+
+            p {
+                color: #6c757d;
+                font-size: 1rem;
+                font-weight: 400;
+                font-style: italic;
+                font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            }
+        }
+        .bottomBox {
+            width: 85%;
+            min-height: 52vh;
+            background-color: sandybrown;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            .iconWriteBox {
+                width: 30%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-evenly;
+                background-color: white;
+                .iconBox {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    height: 128px;
+                    width: 128px;
+                    background-color: $second-color;
+                    i {
+                        font-size: 4em;
+                        color: $main-color;
+                    }
+                }
+                h4 {
+                    width: 60%;
+                    font-size:1.5em;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 600;
+                    line-height: 1px;
+                    font-style: normal;
+                    text-align: center;
+                }
+                p {
+                    text-align: center;
+                    width: 87%;
+                    color: #71777D;
+                }
+               
+            }
+        }
+    }
+}

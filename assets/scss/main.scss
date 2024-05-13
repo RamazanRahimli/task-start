@@ -1,0 +1,11 @@
+@import "./variable/variable";
+@import "./pages/home";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 85%;
+}
